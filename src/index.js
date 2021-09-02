@@ -34,7 +34,7 @@ ReactDOM.render(
     <Switch>
       <Route path="/" exact render={props => <Profile {...props} />} />
       <Route
-        path="/landing-page"
+        path="/portfolio"
         exact
         render={props => <Landing {...props} />}
       />
